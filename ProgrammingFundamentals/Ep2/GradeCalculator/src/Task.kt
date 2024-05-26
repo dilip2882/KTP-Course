@@ -5,11 +5,11 @@ fun gradeFor(m1: Int, m2: Int, m3: Int, m4: Int, m5: Int): String {
 
     return when (average) {
         in 9f..10f -> "A+"
-        in 8f..9f -> "A"
-        in 7f..8f -> "B"
-        in 6f..7f -> "C"
-        in 5f..6f -> "D"
-        in 3f..4f -> "E"
+        in 8f..8.99f -> "A"
+        in 7f..7.99f -> "B"
+        in 6f..6.99f -> "C"
+        in 5f..5.99f -> "D"
+        in 3f..4.99f -> "E"
         else -> "Fail"
     }
 
