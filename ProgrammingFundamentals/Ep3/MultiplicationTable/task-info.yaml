@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 88
-        length: 62
+      - offset: 84
+        length: 11
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -12,11 +12,35 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: dDroqK5/AfJdNz0YaypvH3GoQDHUzgnf0O0wSgjdtk6szfRIZ8L7mwGKZv2GpQeGqpEia//EWRYZTbSjCJbX8gecYtNaiM4qsgCxUha0JwI=
         selected: false
-        status: Unchecked
+        status: Failed
         is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Wrong table (10 X 1 = 10
+    10 X 2 = 20
+    10 X 3 = 30
+    10 X 4 = 40
+    10 X 5 = 50
+    10 X 6 = 60
+    10 X 7 = 70
+    10 X 8 = 80
+    10 X 9 = 90
+    10 X 10 = 100
+    ) printed for 10, expected (10 X 1 = 10
+    10 X 2 = 20
+    10 X 3 = 30
+    10 X 4 = 40
+    10 X 5 = 50
+    10 X 6 = 60
+    10 X 7 = 70
+    10 X 8 = 80
+    10 X 9 = 90
+    10 X 10 = 100
+    )
+  time: "Sun, 26 May 2024 14:03:10 UTC"
 record: -1
