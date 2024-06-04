@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 111
-        length: 537
+        length: 270
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -12,20 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qTmjfckzpEt9QELTstfvCXL7zi9wow+kmsA9BoqepQYYf/43HcoZaeeU+3O/PQvhUnL/FkClUTQszcdswW2kq1FACiNCPsddVoQyWnLrTAMI5qBEiEXGuj6kh34M/6dv28/SW4/kycus0svTcHH/ECp/xeDPSCzn4h99DalE7QQGH4k/9b53hP950qRE6K0l29VqdMrCF3unrugO8SzHptoFMSjjXloOWxeZTC7C0H3qNELFirlI6WKiiDGjMHFXc6nF627uAST/ke29DkrUog==
         selected: false
-        status: Failed
+        status: Solved
         is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Wrong pattern --*--
-    -*-*-
-    *****
-     for lines=3, expected --*--
-    -*-*-
-    *---*
-  time: "Wed, 29 May 2024 17:51:22 UTC"
+  message: Congratulations!
+  time: "Tue, 04 Jun 2024 18:14:36 UTC"
 record: -1
