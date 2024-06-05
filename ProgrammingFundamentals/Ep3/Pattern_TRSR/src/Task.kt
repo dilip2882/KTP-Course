@@ -1,4 +1,4 @@
-import com.faangx.ktp.patterns.single.PatternMiniApp
+import com.faangx.ktp.patterns.single.PatternLinesBasedMiniApp
 
 fun printPattern(lines: Int) {
     repeat(lines) {i ->
@@ -11,5 +11,5 @@ fun printPattern(lines: Int) {
 }
 
 fun main() {
-    PatternMiniApp("TRSR", ::printPattern)
+    PatternLinesBasedMiniApp("TRSR", ::printPattern)
 }

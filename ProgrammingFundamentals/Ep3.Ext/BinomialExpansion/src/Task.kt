@@ -1,4 +1,4 @@
-import com.faangx.ktp.ext.BinomialExpansionMiniApp
+import com.faangx.ktp.basics.BinomialExpansionMiniApp
 
 fun printBinomialExpansion(n: Int) {
     for (k in 0..n) {
