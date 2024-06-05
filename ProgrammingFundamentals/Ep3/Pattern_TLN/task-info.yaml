@@ -3,11 +3,11 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 89
+      - offset: 69
         length: 247
         placeholder_text: TODO()
         initial_state:
-          length: 6
+          length: 247
           offset: 89
         initialized_from_dependency: false
         encrypted_possible_answer: qTmjfckzpEt9QELTstfvCXL7zi9wow+kmsA9BoqepQbUbG850wlNkRvWtiK/pFMWXSOUVFA8sIpOoRnchV7YvjxidzbgHno3tUv0TvsnZnysdvcDWZJxEM1cu9iBMgWH
