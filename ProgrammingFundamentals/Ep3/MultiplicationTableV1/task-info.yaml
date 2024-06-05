@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 109
-        length: 74
+        length: 48
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -12,37 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: eq6GGM27NYdj+u0t30gVYETSbVKH+2pjH3j8Q+OZep7+pfGf71XdJb70NKq8Eztso2VT9dw63SfMXI/oXlYU0O1DSmG0JpD6GN4KziV8bhE=
         selected: false
-        status: Failed
+        status: Solved
         is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong table (20 x 75 = 1500
-    20 x 76 = 1520
-    20 x 77 = 1540
-    20 x 78 = 1560
-    20 x 79 = 1580
-    20 x 80 = 1600
-    20 x 81 = 1620
-    20 x 82 = 1640
-    20 x 83 = 1660
-    20 x 84 = 1680
-    20 x 85 = 1700
-    ) printed for 20, expected (20 X 75 = 1500
-    20 X 76 = 1520
-    20 X 77 = 1540
-    20 X 78 = 1560
-    20 X 79 = 1580
-    20 X 80 = 1600
-    20 X 81 = 1620
-    20 X 82 = 1640
-    20 X 83 = 1660
-    20 X 84 = 1680
-    20 X 85 = 1700
-    )
-  time: "Wed, 29 May 2024 15:47:03 UTC"
+  message: Congratulations!
+  time: "Wed, 05 Jun 2024 05:13:53 UTC"
 record: -1
