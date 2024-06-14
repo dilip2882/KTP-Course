@@ -7,8 +7,8 @@ fun printFibonacciSeries(n: Int) {
         if (it <= 1) {
             print("1, ")
         } else {
-            print("$b, ")
             val nextTerm = a + b
+            print("$nextTerm, ")
             a = b
             b = nextTerm
         }
