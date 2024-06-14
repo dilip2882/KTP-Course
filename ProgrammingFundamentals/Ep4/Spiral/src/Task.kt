@@ -1,16 +1,22 @@
 import com.faangx.ktp.basics.SpiralFullScreenMiniApp
 
-fun main() {
-    printFibonacciSeries(10)
-}
-
 fun printFibonacciSeries(n: Int) {
-    var a = 0
+    var a = 1
     var b = 1
     repeat(n) {
-        println(b)
-        val nextTerm = a + b
-        a = b
-        b = nextTerm
+        if (it <= 1) {
+            print("1, ")
+        } else {
+            print("$b, ")
+            val nextTerm = a + b
+            a = b
+            b = nextTerm
+        }
     }
+}
+
+fun main() {
+    SpiralFullScreenMiniApp(
+        ::printFibonacciSeries
+    )
 }
