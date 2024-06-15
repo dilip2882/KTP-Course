@@ -9,6 +9,7 @@ fun getLCM(x: Int, y: Int): Int {
         mul += a
     }
     return  mul
+    // return x * y / hcfOf(x, y)
 
 }
 
